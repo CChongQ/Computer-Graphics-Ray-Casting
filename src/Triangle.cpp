@@ -40,7 +40,7 @@ bool Triangle::intersect(
 
   t = t_temp;
   n = (b - a).cross(c - a).normalized();
- 
+  
   return true;
   ////////////////////////////////////////////////////////////////////////////
 }
